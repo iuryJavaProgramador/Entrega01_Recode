@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="First project for Recode Pro AI institution. A travel agency.">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta name="referrer" content="no-referrer">
+
+    <title>Agência de Viagens</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body >
+  <!-- Menu -->
+  <header class="header-menu">
+    <nav
+        class="navbar navbar-expand-lg ">
+        <div class="container">
+            <picture>
+                <img class="img-menu rounded"
+                    src="images/logo/logo-img.png"
+                    alt="Logo da agência" loading="lazy"/>
+            </picture>
+            <button
+                class="navbar-toggler d-lg-none"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId"
+                aria-controls="collapsibleNavId"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span> 
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav w-100 mt-4 mt-lg-0">
+                    <!-- <li class="nav-item-title">
+                        <a class="nav-link active text-white" href="#" aria-current="page"
+                            >Word Travel
+                            <span class="visually-hidden">(current)</span></a
+                        >
+                    </li> -->
+
+                    <li class="nav-item">
+                        <a class="nav-link active
+                        " href="#home" aria-current="page"
+                    > <i class="bi bi-house me-1"></i>Home
+                            <span class="visually-hidden">(current)</span></a
+                        >
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active " href="#pacotes" aria-current="page"
+                            ><i class="bi bi-currency-dollar me-1"></i>Pacotes de viagem
+                            <span class="visually-hidden">(current)</span></a
+                        >
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active " href="#contato" aria-current="page" id="whatsapp-button"
+                            ><i class="bi bi-telephone me-1"></i>Contato
+                            <span class="visually-hidden">(current)</span></a
+                        >
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#agendamentos" aria-current="page"
+                            ><i class="bi bi-luggage-fill me-1"></i>Agendamentos
+                            <span class="visually-hidden">(current)</span></a
+                        >
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#fac" aria-current="page"
+                            > <i class="bi bi-globe me-1"></i>FAC
+                            <span class="visually-hidden">(current)</span></a>
+                    </li>
+                </div>
+            </div>
+        </nav>
+</header>
+
+<!-- Home -->
+<section class="section-home">
+      <div class="container" id="home">
+          <div class="clearfix">
+            <picture><img class="img-home col-md-6 float-md-end mb-3 ms-md-3" src="images/img-home.png" alt="Image da home" loading="lazy"></picture>
+            <h2 class="md-typescale-display-medium">Que bom ter você aqui</h2>
+            <p class="p-section-home fw-light fs-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe excepturi numquam veniam rerum magnam? Fuga voluptas nobis commodi vitae quasi praesentium voluptate, ad error, iusto minus, sed dicta. Maiores, asperiores! Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <p class="p-section-home fw-light fs-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe excepturi numquam veniam rerum magnam? Fuga voluptas nobis commodi vitae quasi praesentium voluptate, ad error, iusto minus, sed dicta.</p>
+          </div>
+      </div>
+</section>
+
+
+<section class="pacotes-section" id="pacotes">
+    <aside>
+      <div class="container">
+        <div class="row row-pacote row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col col-pacote">
+            <div class="card h-100">
+              <img src="images/suica.jpg" class="card-img-top" alt="Imagem da Suiça" loading="lazy">
+              <div class="card-body">
+                <h5 class="card-title">Wengen, Suiça</h5>
+                <p class="card-text text-decoration-line-through text-muted">R$ 3.800</p>
+                <p class="card-text text-danger price-discount">R$ 2.500</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/canada.jpg" class="card-img-top" alt="Imagem do Canadá" loading="lazy">
+              <div class="card-body">
+                <h5 class="card-title">Vancouver, Canadá</h5>
+                <p class="card-text text-decoration-line-through text-muted">R$ 3.500</p>
+                <p class="card-text text-danger price-discount">R$ 2.500</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/ny-eua.jpg" class="card-img-top" alt="Imagem dos EUA" loading="lazy">
+              <div class="card-body">
+                <h5 class="card-title">New York, Estados Unidos</h5>
+                <p class="card-text text-decoration-line-through text-muted">R$ 3.800</p>
+                <p class="card-text text-danger price-discount">R$ 2.500</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/portugal.jpg" class="card-img-top" alt="Imagem de Portugal" loading="lazy">
+              <div class="card-body">
+                <h5 class="card-title">Benfica, Portugal</h5>
+                <p class="card-text text-decoration-line-through text-muted">R$ 3.800</p>
+                <p class="card-text text-danger price-discount">R$ 2.500</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/italia.jpg" class="card-img-top" alt="Imagem da Itália" loading="lazy">
+              <div class="card-body">
+                <h5 class="card-title">Milão, Itália</h5>
+                <p class="card-text text-decoration-line-through text-muted">R$ 3.800</p>
+                <p class="card-text text-danger price-discount">R$ 2.500</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </aside>
+</section>
+
+<!-- Form -->
+<div class="form-form" id="agendamentos">
+  <div class="form-div-control" aria-live="polite">
+    <fieldset>
+        <legend class="text-center">Preencha as informações abaixo e retornaremos o mais breve possível.</legend>
+        <form role="form" class="form-clinica">
+            <div class="mt-1">
+              <input type="text" class="form-control" id="nome" name="nome" required aria-invalid="false" placeholder="Nome"></div>
+  
+            <div class="mt-1">
+              <input type="tel" class="form-control" placeholder="Telefone" required aria-required="true"
+              aria-invalid="true">
+            </div>
+  
+            <div class="mt-1">
+              <input type="email" class="form-control" id="email" placeholder="E-mail" name="email" required aria-required="true" aria-invalid="true">
+            </div>
+  
+            <div class="mt-1">
+                <label for="select">Para onde quer viajar?</label>
+                <select name="destino" class="form-control" id="find-us" required aria-required="true">
+                    <option disabled selected value="">Selecione uma opção
+                    </option>
+                    <option value="Google">Wengen, Suíça</option>
+                    <option value="Instagram">Vancouver, Canadá</option>
+                    <option value="Facebook">Nova York, Estados Unidos</option>
+                    <option value="Outros">Buenos Aires, Argentina</option>
+                    <option value="Outros">Milão, Itália</option>
+                    <option value="Outros">Benfica, Portugal</option>
+                </select>
+            </div>
+  
+            <div class="mt-1">
+              <label for="select">Escolha uma data</label>
+              <input class="form-control" type="date" name="" id="">
+            </div>
+  
+            <div class="mt-1">
+              <label for="select">Escolha um Horário</label>
+              <input class="form-control" type="time" name="tempo" id="time">
+            </div>
+  
+  
+            <div class="mt-1">
+              <textarea class="textarea-form form-control" id="mensagem" name="mensagem" placeholder="Mensagem" maxlength="700" aria-describedby="mensagemDescricao" required></textarea>
+              <small>
+                <p id="mensagemDescricao" class="fs-6">Máximo de 700 caracteres.</p>
+              </small>
+            </div>
+  
+            <div class="mt-1">
+              <button tabindex="5" type="submit" class="w-50 justify-content-center m-auto d-flex btn btn-primary" aria-label="Clique para enviar o formulário">Enviar
+              </button>
+            </div>
+        </form>
+    </fieldset>
+  </div>
+</div>
+
+<article class="article-fac" id="fac">
+  <aside>
+    <div class="container">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Como faço para reservar uma viagem?
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam alias, unde, consequuntur sunt veniam nostrum quas modi quos itaque accusamus voluptatem dignissimos expedita voluptate, dicta ab molestiae minima quis quo?</p></div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Quais são as formas de pagamento aceitas?
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam delectus illum exercitationem deserunt officia voluptas quo placeat, soluta labore! Unde, soluta! Odio fugiat molestiae libero numquam vero similique culpa maiores?</p></div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              O que está incluído nos pacotes de viagem?
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium consequatur debitis expedita. Excepturi at, non error facilis doloribus cum recusandae adipisci distinctio. Similique tempore blanditiis, officiis impedit nihil maiores itaque!</p></div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+              Qual é a política de reembolso?
+            </button>
+          </h2>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium consequatur debitis expedita. Excepturi at, non error facilis doloribus cum recusandae adipisci distinctio. Similique tempore blanditiis, officiis impedit nihil maiores itaque!</p></div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+              Como posso saber mais sobre o destino?
+            </button>
+          </h2>
+          <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium consequatur debitis expedita. Excepturi at, non error facilis doloribus cum recusandae adipisci distinctio. Similique tempore blanditiis, officiis impedit nihil maiores itaque!</p></div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+              Há descontos ou promoções?
+            </button>
+          </h2>
+          <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium consequatur debitis expedita. Excepturi at, non error facilis doloribus cum recusandae adipisci distinctio. Similique tempore blanditiis, officiis impedit nihil maiores itaque!</p></div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+              O que fazer em caso de emergência durante a viagem?
+            </button>
+          </h2>
+          <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium consequatur debitis expedita. Excepturi at, non error facilis doloribus cum recusandae adipisci distinctio. Similique tempore blanditiis, officiis impedit nihil maiores itaque!</p></div>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </aside>
+</article>
+
+
+<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+  <section id="footer_social_media" class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <div class="m-auto d-flex flex-wrap">
+      <a class="me-4 text-reset fs-6 text-decoration-none" href="https://pt-br.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
+      <a class="me-4 text-reset fs-6 text-decoration-none" href="https://x.com/?mx=2" target="_blank" rel="noopener noreferrer"><i class="bi bi-twitter"></i></a>
+      <a class="me-4 text-reset fs-6 text-decoration-none" href="https://www.google.com.br/" target="_blank" rel="noopener noreferrer"><i class="bi bi-google"></i></a>
+      <a class="me-4 text-reset fs-6 text-decoration-none" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
+      <a class="me-4 text-reset fs-6 text-decoration-none" href="https://www.linkedin.com/in/iury-programador/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
+      <a class="me-4 text-reset fs-6 text-decoration-none" href="https://wa.me/5521980892914?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20os%20pacotes%20de%20viagem.
+      " target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp"></i></a>
+    </div>
+  </section>
+
+  <section class="section-name-travel">
+    <div class="container div-travel text-center text-md-start ">
+      <div class="row">
+        <div class="mt-4 col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-2">
+            <i class="bi bi-airplane me-1"></i>World Travel
+          </h6>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi maxime impedit, dolores modi cupiditate aut ullam pariatur, iste itaque omnis incidunt recusandae eum velit aspernatur voluptatibus illum quasi. Fuga, aspernatur.
+          </p>
+        </div>
+        <div class="mt-4 col-md-3 col-lg-4 div-apoiadores col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-2">Nossos apoiadores</h6>
+          <ul class="list-unstyled">
+            <li><a class="li-apoiadores m-0 text-decoration-none" href="https://portfolio-snowy-mu-86.vercel.app/" target='rel' title="Site oficial"><i>&commat; Iury Rodrigues de Godoy</i></a></li>
+
+            <li><a class="li-apoiadores m-0 text-decoration-none" href="https://recode.org.br/" target='rel' title="Site oficial"><i>&commat; Recode Pro AI</i></a></li>
+            
+          </ul>
+        </div>
+
+        <div class="mt-4 col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <h6 class="text-uppercase fw-bold mb-2">Endereço</h6>
+          <address>
+            <p class="">
+              <i class="bi bi-house-door-fill me-1"></i>Estrada do campo html, n° 324, Sala XX, Rio de Janeiro - RJ. <br />
+              CEP: 00000-000
+            </p>
+            <p><i class="bi bi-telephone-fill me-1"></i>+55 (21) 99999-9999</p>
+          </address>
+          <p>
+            <i class="bi bi-envelope-at-fill me-1"></i>wordtravel@gmail.com
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="text-center p-4 div-final-footer">
+    <p class="text-black fs-5 fw-light">&copy; 2025, World of Travel</p>
+  </div>
+</footer>
+
+
+    <script type="importmap">
+      {
+        "imports": {
+          "@material/web/": "https://esm.run/@material/web/"
+        }
+      }
+    </script>
+    <script type="module">
+      import '@material/web/all.js';
+      import {styles as typescaleStyles} from '@material/web/typography/md-typescale-styles.js';
+  
+      document.adoptedStyleSheets.push(typescaleStyles.styleSheet);
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
