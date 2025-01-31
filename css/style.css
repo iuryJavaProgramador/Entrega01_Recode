@@ -98,7 +98,7 @@ body {
 }
 
 .form-form {
-    background-color: #320042;
+    background-color: rgb(105, 53, 15);
     background-size: contain;
 }
 
@@ -118,11 +118,37 @@ body {
     height: 200px;
 }
 
+.button-form {
+    width: 200px;
+    height: 50px;
+    padding: 12px 24px;
+    font-size: 18px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    background-color: rgba(136, 173, 150, 0.596);
+    color: #ededed;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: rgba(255, 217, 0, 0.288);
+    transform: scale(1.05);
+  }
+
+
 
 /* Fac */
 .article-fac {
     padding-top: 5rem;
     padding-bottom: 5rem;
+}
+
+.accordion-button:focus {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    outline: none !important;
 }
 
 /* Footer  */
