@@ -86,6 +86,11 @@ legend {
 
 .textarea-form {
     height: 200px;
+    
+}
+
+.textarea-form::placeholder {
+    color: #000000;
 }
 
 .button-form {
