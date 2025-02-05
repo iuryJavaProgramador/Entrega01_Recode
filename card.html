@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacotes</title>
+
+    <!-- SwiperJS CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0&icon_names=arrow_forward"/>
+    
+    <link rel="stylesheet" href="css/card.css">
+
+</head>
+<body>
+    <div class="container swiper" aria-live="polite">  
+        <div class="title-div">
+            <h1 class="h1-menu">Escolha o seu destino</h1>
+        </div>
+        <div class="card-wrapper">
+            <ul class="card-list swiper-wrapper">
+                <li class="card-item swiper-slide" aria-labelledby="slide 1">
+                    <a href="#agendamentos" class="card-link">
+                        <img src="images/cards/canada.png" alt="Card image" class="card-image">
+                        <h2 class="card-title canada">Wancouver, Canadá</h2>
+                        <del>
+                            <p class="original-p">R$ 3.800</p>
+                        </del>
+                        <p class="promotional-p">R$ 2.500</p>
+                        <button type="button" class="card-button material-symbols-outlined" data-pais="Canada">
+                            arrow_forward
+                        </button>
+                    </a>
+                </li>
+                <li class="card-item swiper-slide" aria-labelledby="slide 2">
+                    <a href="#agendamentos" class="card-link">
+                        <img src="images/cards/italia.png" alt="Card image" class="card-image ">
+                        <h2 class="card-title">Milão, Itália</h2>
+                        <del>
+                            <p class="original-p">R$ 3.800</p>
+                        </del>
+                        <p class="promotional-p">R$ 2.500</p>
+                        <button type="button" class="card-button material-symbols-outlined" data-pais="Italia">
+                            arrow_forward
+                        </button>
+                    </a>
+                </li>
+                <li class="card-item swiper-slide" aria-labelledby="slide 3">
+                    <a href="#agendamentos" class="card-link">
+                        <img src="images/cards/ny-eua.png" alt="Card image" class="card-image ">
+                        <h2 class="card-title">New York, EUA</h2>
+                        <del>
+                            <p class="original-p">R$ 3.800</p>
+                        </del>
+                        <p class="promotional-p">R$ 2.500</p>
+                        <button type="button" class="card-button material-symbols-outlined" data-pais="Eua">
+                            arrow_forward
+                        </button>
+                    </a>
+                </li>
+                <li class="card-item swiper-slide" aria-labelledby="slide 4">
+                    <a href="#agendamentos" class="card-link">
+                        <img src="images/cards/portugal.png" alt="Card image" class="card-image ">
+                        <h2 class="card-title">Benfica, Portugal</h2>
+                        <del>
+                            <p class="original-p">R$ 3.800</p>
+                        </del>
+                        <p class="promotional-p">R$ 2.500</p>
+                        <button type="button" class="card-button material-symbols-outlined" data-pais="Portugal">
+                            arrow_forward
+                        </button>
+                    </a>
+                </li>
+                <li class="card-item swiper-slide" aria-labelledby="slide 5">
+                    <a href="#agendamentos" class="card-link">
+                        <img src="images/cards/suica.png" alt="Card image" class="card-image">
+                        <h2 class="card-title">Wengen, Suiça</h2>
+                        <del>
+                            <p class="original-p">R$ 3.800</p>
+                        </del>
+                        <p class="promotional-p">R$ 2.500</p>
+                        <button type="button" class="card-button material-symbols-outlined" data-pais="Suica">
+                            arrow_forward
+                        </button>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="swiper-pagination"></div>
+            <div aria-label="Anterior" aria-hidden="true" class="swiper-slide-button swiper-button-prev">
+            </div>
+
+            <div aria-label="Próximo" aria-hidden="true" class="swiper-slide-button swiper-button-next">
+            </div>
+        </div>
+    </div>
+
+    <!-- SwipperJS script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="js/card.js"></script>
+    
+</body>
+</html>
