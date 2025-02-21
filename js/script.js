@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // WhatsApp
     document.getElementById('whatsapp-button').addEventListener('click', function () {
-        const phone = '+5521980892914';
+        const phone = '+5521991504497';
         const message = 'Olá, gostaria de saber mais sobre viagens.';
         const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
 
