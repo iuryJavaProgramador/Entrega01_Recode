@@ -11,7 +11,6 @@ JavaScript: Funcionalidades dinâmicas e interatividade.
 Bootstrap: Framework CSS para layout responsivo e componentes prontos.
 
 Banco de Dados Relacional: Utilizado para gerenciar as informações de clientes, pacotes de viagens, agendamentos, etc.
-Objetivo do Projeto
 O objetivo deste projeto foi criar uma página de agência de viagens que seja:
 
 Responsiva: Adaptada a diferentes dispositivos (desktop, tablet, mobile).
