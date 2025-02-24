@@ -31,7 +31,7 @@ O diagrama conceitual ilustra as entidades principais do sistema e os relacionam
 
 <br>
 
-![Modelo Conceitual](https://github.com/user-attachments/assets/7417dc0b-9960-41ae-99f1-f0342dadf3c2)
+![Modelo Conceitual](Banco de dados/modelo-conceitual-travel.jpg)
 
 <br> <br>
 
