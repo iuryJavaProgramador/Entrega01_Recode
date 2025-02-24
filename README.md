@@ -11,9 +11,8 @@ JavaScript: Funcionalidades dinâmicas e interatividade.
 Bootstrap: Framework CSS para layout responsivo e componentes prontos.
 
 Banco de Dados Relacional: Utilizado para gerenciar as informações de clientes, pacotes de viagens, agendamentos, etc.
-O objetivo deste projeto foi criar uma página de agência de viagens que seja:
 
-Responsiva: Adaptada a diferentes dispositivos (desktop, tablet, mobile).
+Responsividade: Adaptada a diferentes dispositivos (desktop, tablet, mobile).
 Funcional: Incluindo funcionalidades como visualização de pacotes de viagens, agendamentos e consultas ao banco de dados.
 Acessível: A página foi projetada para garantir que todos os usuários, incluindo aqueles com deficiências, possam navegar e interagir sem dificuldades.
 Pesquisa e Planejamento
@@ -27,7 +26,7 @@ Com base nesse levantamento, a estrutura foi definida, e a página foi projetada
 Banco de Dados
 O sistema de banco de dados utilizado para gerenciar os dados dos clientes, pacotes de viagens e agendamentos é baseado no modelo relacional. Abaixo, estão os diagramas que detalham a estrutura do banco de dados:
 
-Diagrama Conceitual
+Diagrama Conceitual:
 O diagrama conceitual ilustra as entidades principais do sistema e os relacionamentos entre elas.
 
 <br>
@@ -36,7 +35,7 @@ O diagrama conceitual ilustra as entidades principais do sistema e os relacionam
 
 <br> <br>
 
-Diagrama Lógico
+Diagrama Lógico:
 O diagrama lógico fornece uma visão mais detalhada da estrutura de dados, com os atributos e relacionamentos entre as entidades.
 
 <br>
@@ -45,7 +44,7 @@ O diagrama lógico fornece uma visão mais detalhada da estrutura de dados, com 
 
 <br> <br>
 
-Diagrama Físico
+Diagrama Físico:
 Este diagrama mostra a estrutura final do banco de dados, pronto para ser implementado, com as definições de tabelas e tipos de dados.
 
 <br>
