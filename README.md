@@ -32,7 +32,6 @@ O diagrama conceitual ilustra as entidades principais do sistema e os relacionam
 <br>
 
 ![Modelo Conceitual](https://raw.githubusercontent.com/iuryJavaProgramador/Entrega01_Recode/refs/heads/main/Banco%20de%20dados/modelo-conceitual-travel.jpg)
-)
 
 <br> <br>
 
