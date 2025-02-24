@@ -9,7 +9,6 @@ HTML: Estrutura básica e semântica da página.
 CSS: Estilização e responsividade.
 JavaScript: Funcionalidades dinâmicas e interatividade.
 Bootstrap: Framework CSS para layout responsivo e componentes prontos.
-Backend (se houver):
 
 Banco de Dados Relacional: Utilizado para gerenciar as informações de clientes, pacotes de viagens, agendamentos, etc.
 Objetivo do Projeto
