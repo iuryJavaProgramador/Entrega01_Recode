@@ -1,5 +1,5 @@
 # World of Travel - Agência de Viagens
-### Bem-vindo ao projeto World of Travel, desenvolvido como parte do curso da Recode Pro AI. Este site tem como objetivo oferecer uma solução web para uma agência de viagens, com uma interface de usuário moderna, responsiva e acessível, utilizando as tecnologias mais atuais.
+### Bem-vindo ao projeto World of Travel, desenvolvido como parte do curso da Recode Pro AI. Este site tem como objetivo oferecer uma solução web que é uma agência de viagens, com uma interface de usuário moderna, responsiva e acessível, utilizando as tecnologias mais atuais.
 
 Tecnologias Utilizadas
 Este projeto foi desenvolvido utilizando as seguintes tecnologias:
